@@ -3,10 +3,12 @@ print ">"
 number = gets.chomp.to_i
 i = 1
 block = "#"
-espace = " "
-while i < number
-  
-    puts block * i
-    i = i + 1
-end
+espace = number 
 
+puts "Voici la pyramide: "
+while i <= number
+    print (" " * espace ) 
+    puts "#{"#" * i }" 
+    i += 1
+    espace -= 1
+end

@@ -7,8 +7,9 @@ i = 1
 block = "#"
 
 puts "Voici la pyramide: "
-while i < number
+while i <= number
     puts block * i
-    i = i + 1
+    i += 1
 end
+
 
