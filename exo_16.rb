@@ -1,11 +1,12 @@
-puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu monter (entre 1 et 25)?"
+puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu entre 1 et 25?"
 print ">"
-n = Integer(gets.chomp)
+number = gets.chomp.to_i
 i = 1
-
-puts "Voici la pyramide: "
-
-n.times do |i|
-  print " " * (n - i)
-  puts "#"*(i+1)
+block = "#"
+espace = " "
+while i < number
+  
+    puts block * i
+    i = i + 1
 end
+

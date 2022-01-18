@@ -12,3 +12,4 @@ while i >= 0
     puts "Il y a #{i} ans, tu avais la moitié de l'age que tu as aujourd'hui."
     end
 end
+

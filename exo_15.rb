@@ -11,3 +11,4 @@ while i < number
     puts block * i
     i = i + 1
 end
+

@@ -9,6 +9,7 @@ end
 puts 0
 
 
+
 # Autre méthode... 
   #puts "Choisis un nombre entre 1 et 100 :"
   #print "> "
